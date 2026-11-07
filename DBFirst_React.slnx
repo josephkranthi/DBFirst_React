@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="dbfirst_react.client/dbfirst_react.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="DBFirst_React.Server/DBFirst_React.Server.csproj" />
+  <Project Path="MSTest/MSTest.csproj" Id="b78e3011-2cf1-43bf-b5ce-8cc986065f98" />
+  <Project Path="NUnit/NUnit.csproj" Id="1e23b396-404b-42ef-b51d-c8180677eec7" />
+  <Project Path="xUnit/xUnit.csproj" Id="6ab9f07b-f610-4bd4-b60a-2c04a98ff2e9" />
+</Solution>

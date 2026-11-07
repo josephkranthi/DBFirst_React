@@ -1,6 +1,6 @@
 # DBFirst_React
 
-This repository contains a full-stack sample application built with ASP.NET Core and React. It demonstrates a simple employee management workflow where a SQL Server database stores employee records and a React client calls a REST API to read, create, and delete employees.
+This repository contains a full-stack sample application built with ASP.NET Core and React. It demonstrates a simple employee management workflow where a SQL Server database stores employee records and a React frontend interacts with them through a Web API.
 
 ## Overview
 
@@ -10,6 +10,28 @@ The project is split into two main parts:
 - `dbfirst_react.client` — React + Vite frontend
 
 The backend uses Entity Framework Core and SQL Server, while the frontend uses a Vite-based React app and communicates with the API through the `/api` route.
+
+## Tech stack
+
+### Backend
+
+- C# and .NET 10
+- ASP.NET Core Web API
+- Entity Framework Core
+- Microsoft SQL Server
+
+### Frontend
+
+- React
+- JavaScript
+- Vite
+- CSS and HTML
+
+### Testing
+
+- MSTest
+- NUnit
+- xUnit
 
 ## Architecture
 
@@ -112,4 +134,4 @@ dotnet test DBFirst_React.slnx
 
 ## Notes
 
-This project is a practical example of a database-first ASP.NET Core backend paired with a React frontend. It is useful as a starter for learning CRUD patterns, EF Core configuration, and frontend-backend integration in a single solution.
+This project is a practical example of a database-first ASP.NET Core backend paired with a React frontend. It is useful as a starter for learning CRUD patterns, EF Core configuration, and frontend development.
